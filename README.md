@@ -1,6 +1,7 @@
 # User Management Identity
  Asp.net core Identity | Authentication &amp; Authorization | Code First | EF CORE | .net 6
  
+<div style="border:1px solid #ccc;border-radius:5px;margin:80px;">
 
 <p align="center" style="margin-top:10px">
 <a href="https://github.com/iamhasibulhasan"><img style="width:20%;border-radius:80%" src="https://raw.githubusercontent.com/iamhasibulhasan/iamhasibulhasan/master/img/about/hasibul.png" alt="Hasibul :: Visitor's Count" /></a>
@@ -28,3 +29,4 @@
 <p align="center" style="margin-top:10px">
 <a href="https://github.com/iamhasibulhasan"><img src="https://profile-counter.glitch.me/{iamhasibulhasan}/count.svg" alt="Hasibul : Visitor's Count" /></a>
 </p>
+</div>
