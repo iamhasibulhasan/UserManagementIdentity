@@ -30,3 +30,35 @@ I:\.net-projects\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\
 I:\.net-projects\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.pdb
 I:\.net-projects\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.genruntimeconfig.cache
 I:\.net-projects\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\ref\UserManagementIdentity.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\appsettings.Development.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\appsettings.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\UserManagementIdentity.exe
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\UserManagementIdentity.deps.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\UserManagementIdentity.runtimeconfig.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\UserManagementIdentity.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\UserManagementIdentity.pdb
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.csproj.AssemblyReference.cache
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.GeneratedMSBuildEditorConfig.editorconfig
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.AssemblyInfoInputs.cache
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.AssemblyInfo.cs
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.csproj.CoreCompileInputs.cache
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.MvcApplicationPartsAssemblyInfo.cs
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.MvcApplicationPartsAssemblyInfo.cache
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets\msbuild.UserManagementIdentity.Microsoft.AspNetCore.StaticWebAssets.props
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets\msbuild.build.UserManagementIdentity.props
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UserManagementIdentity.props
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UserManagementIdentity.props
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets.pack.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets.build.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\staticwebassets.development.json
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\scopedcss\bundle\UserManagementIdentity.styles.css
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.csproj.CopyComplete
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\refint\UserManagementIdentity.dll
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.pdb
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\UserManagementIdentity.genruntimeconfig.cache
+E:\For Ridu\UserManagementIdentity\UserManagementIdentity\obj\Debug\net6.0\ref\UserManagementIdentity.dll

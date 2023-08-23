@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "I:\\.net-projects\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj": {}
+    "E:\\For Ridu\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj": {}
   },
   "projects": {
-    "I:\\.net-projects\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj": {
+    "E:\\For Ridu\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\.net-projects\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj",
+        "projectUniqueName": "E:\\For Ridu\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj",
         "projectName": "UserManagementIdentity",
-        "projectPath": "I:\\.net-projects\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj",
-        "packagesPath": "C:\\Users\\hasib\\.nuget\\packages\\",
-        "outputPath": "I:\\.net-projects\\UserManagementIdentity\\UserManagementIdentity\\obj\\",
+        "projectPath": "E:\\For Ridu\\UserManagementIdentity\\UserManagementIdentity\\UserManagementIdentity.csproj",
+        "packagesPath": "C:\\Users\\jony\\.nuget\\packages\\",
+        "outputPath": "E:\\For Ridu\\UserManagementIdentity\\UserManagementIdentity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hasib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
