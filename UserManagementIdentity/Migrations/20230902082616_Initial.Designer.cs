@@ -12,8 +12,8 @@ using UserManagementIdentity.Models;
 namespace UserManagementIdentity.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230823080907_Initialmigration")]
-    partial class Initialmigration
+    [Migration("20230902082616_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
