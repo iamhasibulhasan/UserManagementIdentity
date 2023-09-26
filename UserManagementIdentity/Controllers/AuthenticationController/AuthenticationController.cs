@@ -41,16 +41,25 @@ namespace UserManagementIdentity.Controllers.AuthenticationController
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.UserName
             };
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (result.Succeeded)
+            if (await _roleManager.RoleExistsAsync(Role))
             {
-                return StatusCode(StatusCodes.Status201Created,
-                                 new Response { Status = "Success", Message = "User created successfully." });
+                var result = await _userManager.CreateAsync(user, model.Password);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, Role);
+                    return StatusCode(StatusCodes.Status201Created,
+                                     new Response { Status = "Success", Message = "User created successfully." });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                                      new Response { Status = "Error", Message = "User created failed." });
+                }
             }
             else
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                                  new Response { Status = "Error", Message = "User created failed." });
+                                      new Response { Status = "Error", Message = "This role doesn's exists." });
             }
         }
     }
