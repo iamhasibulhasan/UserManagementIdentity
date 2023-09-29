@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NETCore.MailKit.Core;
 using UserManagementIdentity.Models;
 using UserManagementIdentity.Models.Authentication.Signup;
+using UserManagementIdentity.Service.Models;
+using IEmailServices = UserManagementIdentity.Service.Services.IEmailServices;
 
 namespace UserManagementIdentity.Controllers.AuthenticationController
 {
@@ -12,14 +15,17 @@ namespace UserManagementIdentity.Controllers.AuthenticationController
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly IEmailServices _emailService;
 
         public AuthenticationController(UserManager<IdentityUser> userManager,
                                         RoleManager<IdentityRole> roleManager,
-                                        IConfiguration configuration)
+                                        IConfiguration configuration,
+                                        IEmailServices emailService)
         {
             _roleManager = roleManager;
             _configuration = configuration;
             _userManager = userManager;
+            _emailService = emailService;
 
         }
 
@@ -41,17 +47,37 @@ namespace UserManagementIdentity.Controllers.AuthenticationController
                 SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = model.UserName
             };
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (result.Succeeded)
+            if (await _roleManager.RoleExistsAsync(Role))
             {
-                return StatusCode(StatusCodes.Status201Created,
-                                 new Response { Status = "Success", Message = "User created successfully." });
+                var result = await _userManager.CreateAsync(user, model.Password);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, Role);
+                    return StatusCode(StatusCodes.Status201Created,
+                                     new Response { Status = "Success", Message = "User created successfully." });
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                                      new Response { Status = "Error", Message = "User created failed." });
+                }
             }
             else
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                                  new Response { Status = "Error", Message = "User created failed." });
+                                      new Response { Status = "Error", Message = "This role doesn's exists." });
             }
+        }
+
+        [HttpGet]
+        public IActionResult TestEmail()
+        {
+            var message = new Message(new string[]
+                {"mdhasibulhasan.dev@gmail.com"}, "Test", "<h1>Hello this is Hasibul Hasibul</h1>");
+
+            _emailService.SendEmail(message);
+            return StatusCode(StatusCodes.Status201Created,
+                                     new Response { Status = "Success", Message = "Email sent successfully." });
         }
     }
 }

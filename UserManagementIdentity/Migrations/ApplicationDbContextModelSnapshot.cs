@@ -51,21 +51,21 @@ namespace UserManagementIdentity.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "65e0f11f-4d42-4448-89d2-29a93c050477",
+                            Id = "e0ab5e59-a19b-4df7-a584-bd7c57411bc2",
                             ConcurrencyStamp = "1",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
-                            Id = "b7bde20e-de8e-48d4-9975-41785184f835",
+                            Id = "bee370e1-d2f1-4579-b5d2-a180b2c8ae76",
                             ConcurrencyStamp = "2",
                             Name = "Customer",
                             NormalizedName = "User"
                         },
                         new
                         {
-                            Id = "906beac2-cb3e-4fd7-a06f-441f520a0128",
+                            Id = "1a9a5a71-813c-4875-b146-e32964746735",
                             ConcurrencyStamp = "3",
                             Name = "HR",
                             NormalizedName = "HR"
