@@ -80,7 +80,7 @@ namespace UserManagementIdentity.Controllers.AuthenticationController
         [HttpGet("ConfirmEmail")]
         public async Task<IActionResult> ConfirmEmail(string token, string email)
         {
-            var user = await _userManager.FindByIdAsync(email);
+            var user = await _userManager.FindByEmailAsync(email);
 
             if(user != null)
             {
@@ -88,7 +88,7 @@ namespace UserManagementIdentity.Controllers.AuthenticationController
                 if (result.Succeeded)
                 {
                     return StatusCode(StatusCodes.Status200OK, 
-                        new Response { Status = "Success", Message = "Email sent successfuly."});
+                        new Response { Status = "Success", Message = "Email verified successfuly."});
                 }
             }
             return StatusCode(StatusCodes.Status500InternalServerError,
